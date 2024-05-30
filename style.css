@@ -1,13 +1,14 @@
 body {
     margin: 0;
+    background-color: #9ACD32;
 }
 
 nav ul {
-    border: 1px solid green;
+    border: 5px solid green;
     list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 10%;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -21,13 +22,13 @@ nav ul li a {
   text-decoration: none;
     
 }
-li a.active {
-    background-color: #04AA6D;
+nav li a.active {
+    background-color: #9ACD32;
     color: white;
   }
   
-  li a:hover:not(.active) {
-    background-color: #555;
+nav li a:hover:not(.active) {
+    background-color: #9ACD32;
     color: white;
   }
 
@@ -36,39 +37,22 @@ li a.active {
     padding:1px 16px;
 
   }
- /*header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+  
+div h1{
+  text-align: center;
+  text-decoration: solid;
 }
-
-header h1 {
-    margin: 0;
+section h2{
+  text-align: center;
+  padding-top: 2px;
+  text-decoration-color: chartreuse;
 }
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
- main {
-    padding: 20px;
-}
-
-main h2 {
-    color: #333;
-}
+ section img {
+  height: 35%;
+  width: 30%;
+  float: left;
+ }
+ 
 
 footer {
     background-color: #333;
