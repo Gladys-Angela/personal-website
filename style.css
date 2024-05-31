@@ -40,19 +40,27 @@ nav li a:hover:not(.active) {
   
 div h1{
   text-align: center;
-  text-decoration: solid;
+  text-decoration: underline solid green 20%;
+  
 }
-section h2{
+section h3{
   text-align: center;
-  padding-top: 2px;
-  text-decoration-color: chartreuse;
+  padding-top: 3px;
+  
 }
  section img {
-  height: 35%;
-  width: 30%;
-  float: left;
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border: 5px solid green;
  }
- 
+  section p {
+    float: right;
+    margin-right: 70px;
+    padding-right: 15%;
+
+
+  }
 
 footer {
     background-color: #333;
